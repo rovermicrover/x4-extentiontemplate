@@ -6,6 +6,8 @@ It containts an install command that will attempt to install to default steam di
 
 It also contains a publish and update command that requires X Tools to be installed from steam. Can be found for install under Library ---> Tools in steam. Assumes it is installed in the default steam install location on the C drive.
 
+It also contains a [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/) licence file. This will put the extention into the public domain and allow anyone else to use it in any manner they wish. If you think this is to permissive change the licence file to something else, possible like [MIT](https://opensource.org/licenses/MIT).
+
 # To Use
 
 Install git for windows https://git-scm.com/download/win
@@ -31,6 +33,18 @@ To install into your local X4 run the install.cmd.
 To publish run the publish.cmd with the first argument being the preview image.
 
 To update run the update.cmd with the first argument being the chnge text.
+
+# Why Host on Github?
+
+It is free to host a public repo on Github and the repo will never expire or be purged. You can not only host the raw files for the extention in the repo, but you can also host the release as an actually release file also.
+
+Github also has an industry leading system for managing issues and pull requests witch encourages issue reporting and collaboration.
+
+# Why do you suggest a CC0 Licence?
+
+No modder owns X4. For instance no modder owns the idea that bombers in X4 are missing something. Just because I published a mod that attempts to fix bombers doesn't mean that I own that issue, or hold dominion.
+
+In this spirit I personally attach a CC0 licence to all my mods so that everyone else in the community can use and build upon any mod I release. If someone else comes along and figures out a better way to improve bombers using my mod as a starting point with CC0 they are free to do so. My the best mod win, not the first mod.
 
 # Links
 
