@@ -32,13 +32,15 @@ Add the files you want to add and commit them.
 
 Create a free public repo on github and follow instruction to push your local repo to the remote on github.
 
+# Purpose Of The Commands
+
 To install into your local X4 run the install.cmd. 
 
 To publish to steam workshop run the publish.cmd with the first argument being the preview image.
 
 To update on steam workshop run the update.cmd with the first argument being the change  text.
 
-# Why The Source Host on Github?
+# Why Host The Source on Github?
 
 It is free to host a public repo on Github and the repo will never expire or be purged. You can not only host the raw files for the extension in the repo, but you can also host the release as an actually release file also.
 
