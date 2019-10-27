@@ -50,7 +50,7 @@ In this spirit I personally attach a CC0 license to all my mods so that everyone
 
 # Links
 
-[Egosoft Forum]
+[Egosoft Forum](https://forum.egosoft.com/viewtopic.php?f=181&t=419658)
 
 [Github](https://github.com/rovermicrover/x4-extentiontemplate)
 
