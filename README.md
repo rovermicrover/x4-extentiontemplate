@@ -40,7 +40,7 @@ To update run the update.cmd with the first argument being the change  text.
 
 It is free to host a public repo on Github and the repo will never expire or be purged. You can not only host the raw files for the extension in the repo, but you can also host the release as an actually release file also.
 
-Github also has an industry leading system for managing issues and pull requests witch encourages issue reporting and collaboration.
+Github also has an industry leading system for managing issues and pull requests which encourages issue reporting and collaboration.
 
 # Why do you suggest a CC0 License?
 
