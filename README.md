@@ -46,7 +46,7 @@ Github also has an industry leading system for managing issues and pull requests
 
 No modder owns X4. For instance no modder owns the idea that bombers in X4 are missing something. Just because I published a mod that attempts to fix bombers doesn't mean that I own that issue, or hold dominion.
 
-In this spirit I personally attach a CC0 license to all my mods so that everyone else in the community can use and build upon any mod I release. If someone else comes along and figures out a better way to improve bombers using my mod as a starting point with CC0 they are free to do so. My the best mod win, not the first mod.
+In this spirit I personally attach a CC0 license to all my mods so that everyone else in the community can use and build upon any mod I release. If someone else comes along and figures out a better way to improve bombers using my mod as a starting point with CC0 they are free to do so. May the best mod win, not the first mod.
 
 # Links
 
