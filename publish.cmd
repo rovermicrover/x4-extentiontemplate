@@ -1,4 +1,5 @@
 @echo off
+setlocal enabledelayedexpansion
 
 for /f %%a in ('chdir') do set CurrDirPath=%%a
 for %%I in (.) do set CurrDirName=%%~nxI
@@ -10,10 +11,9 @@ mkdir "release\%CurrDirName%"
 xcopy "%CurrDirPath%\content.xml" "%CurrDirPath%\release\%CurrDirName%"
 
 for /D %%d IN ("%CurrDirPath%\*") DO (
-    FOR %%A IN (%%d) do set CurrSubDir=%%~nxA
-    echo %%d
-    IF NOT "%CurrSubDir%"=="release" (
-        xcopy "%CurrDirPath%\%CurrSubDir%" "%CurrDirPath%\release\%CurrDirName%\%CurrSubDir%\" /E
+    set CurrSubDir=%%~nd
+    IF NOT "!CurrSubDir!"=="release" (
+        xcopy "%CurrDirPath%\!CurrSubDir!" "%CurrDirPath%\release\%CurrDirName%\!CurrSubDir!\" /E
     )
 )
 
